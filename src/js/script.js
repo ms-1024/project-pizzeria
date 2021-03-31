@@ -173,10 +173,10 @@
 
       thisCart.dom.toggleTrigger.addEventListener('click',
 
-      function(event){
-        event.preventDefault();
-        thisCart.dom.wrapper.classList.toggle(classNames.cart.wrapperActive);
-      });
+        function(event){
+          event.preventDefault();
+          thisCart.dom.wrapper.classList.toggle(classNames.cart.wrapperActive);
+        });
 
       thisCart.dom.productList.addEventListener('update', function(){
         thisCart.update();
