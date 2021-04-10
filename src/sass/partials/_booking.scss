@@ -171,9 +171,12 @@
         background: $color-dark;
         opacity: 0.4;
       }
-
     }
-  }
+
+    &.selected {
+      cursor: pointer;
+      background: $color-success;
+    }
 
   [data-table="1"] {
     left: 40px;

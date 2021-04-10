@@ -246,9 +246,9 @@
     },
     {
       "id": 5,
-      "date": "2019-01-01",
+      "date": "2021-04-10",
       "hour": "18:00",
-      "table": 2,
+      "table": 1,
       "repeat": "daily",
       "duration": 2,
       "ppl": 3,
