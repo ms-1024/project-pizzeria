@@ -154,7 +154,6 @@
       &::after {
         border-radius: 50%;
       }
-
     }
 
     &.booked {
@@ -175,8 +174,11 @@
 
     &.selected {
       cursor: pointer;
+      border: 3px solid $color-dark;
       background: $color-success;
+      color: $color-light;
     }
+  }
 
   [data-table="1"] {
     left: 40px;
