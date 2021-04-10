@@ -28,12 +28,7 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {
-      "json-server": "^0.14.2",
-      "flickity": "^2.2.2"
-    },
     "devDependencies": {
-        "autoprefixer-cli": "^1.0.0",
         "browser-sync": "^2.26.3",
         "copyfiles": "^2.1.0",
         "eslint": "^5.14.1",
@@ -45,5 +40,9 @@
         "onchange": "^5.2.0",
         "stylelint": "^9.10.1",
         "stylelint-scss": "^3.5.4"
-    }
+    },
+    "dependencies": {
+        "json-server": "^0.14.2",
+        "flickity": "^2.2.2"
+      }
 }
